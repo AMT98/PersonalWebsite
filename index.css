@@ -1,0 +1,391 @@
+/* Styling for the navigation bar starts here */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+div > h4 {
+    font-size: 3rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-image: linear-gradient(lightblue,white,gray);
+    font-family: 'Poppins', sans-serif;
+ 
+}
+.logo {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.5s;
+    text-shadow: 4px 4px 6px rgb(255, 255, 255);
+
+}
+.logo > h4 > a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo:hover {
+    transform: scale(1.15);
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    
+    
+}
+.nav-links li {
+    list-style-type: none;
+}
+.nav-links a{
+    color:rgb(8, 8, 8);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size: 14px;
+}
+.nav-links li :hover {
+    color: rgb(209, 141, 51);
+}
+
+.contact-button {
+    border: 0px black solid;
+    padding: 5px 5px 5px 7px;
+    border-radius: 10px 0px 10px 0px;
+    border-style: none;
+    box-shadow: 1px 1px 20px;
+    color: black;
+    background-color: rgb(209, 141, 51);
+    font-weight: 600;
+}
+
+
+.contact-button:hover{
+    color: white;
+    background-color: black;
+}
+.contact-button::after{
+    border-bottom: 1px solid black;
+}
+
+/* Styling for home page starts here */
+
+
+#section-one {
+    
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 2.5rem;
+    margin-right: 20px;
+    text-shadow: 1px 1px 2px black;
+    
+
+}
+section{
+    background-image: linear-gradient(lightblue,  gray,lightblue);
+    height: 87.5vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-font {
+    
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+.purple-font {
+    color: rgb(209, 141, 51);
+    margin: 5px 0px 5px 0px;
+    font-size: 100px;
+}
+
+ .lightblue-font {
+    margin-bottom: 50px;
+} 
+
+.gray-font {
+    font-size: 30px;
+}
+
+
+.check-work {
+    color: rgb(209, 141, 51);
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-radius: 10px;
+    transition: .5s;
+    text-shadow: 2px 2px 2px black;
+
+}
+#section-one > a:hover {
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+
+#profile-picture {
+    width: 500px;
+    height: auto;
+    border: 1 px black solid;
+    border-radius: 100%;
+}
+/* styling for home page stops here */
+
+
+
+
+    /*styling for contact page starts here  */
+#contact-me {
+    background-image: linear-gradient(white,lightblue);
+    height: 87.5vh ;
+    text-align: center;
+    border: 1px solid black;
+    color: rgb(209, 141, 51);
+    
+    
+}
+
+
+div > h1 {
+    font-size: 5rem;
+    margin: 1rem;
+    text-shadow: 2px 2px 4px black;
+}
+
+input[type = text] {
+    padding: 20px;
+    margin-bottom: 16.5px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px;
+}
+textarea{
+    padding: 20px 20px 60px 20px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px;
+}
+
+.contact {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+label {
+    font-size: 2rem;
+    
+}
+
+.send-email {
+  
+    margin-top: 3rem;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: black;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 20%;
+    color: white;
+    font-weight: bold;
+    margin-left: 8rem;
+    text-decoration: none;
+    transition: 0.5s;
+    opacity: 0.5;
+}
+
+.send-email:hover {
+    color: white;
+    background-image: linear-gradient(lightgreen,gray,green);
+    transition: background-color 1s ease-in-out;
+    transform: scale(1.25);
+    opacity: 1;
+
+}
+ 
+/* styling for contact page stops here */
+
+
+/* styling for the footer starts here */
+
+
+footer {
+    background-image:linear-gradient(gray, white) ;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > a > img {
+    width: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 50%;
+    box-shadow: 1px 5px 20px;
+    
+    
+}
+a:active {
+    border-bottom: 1px solid rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+}
+
+footer > a:hover {
+    background-image: linear-gradient(white,lightblue);
+    transition: background-color 2s ease-in-out;
+    transition: 0.75s;
+    transform: scale(1.5);
+}
+
+
+/* styling for the footer stops here */
+
+/* styling for the about page starts here */
+#main {
+    background-image: linear-gradient(white,gray,lightblue);
+    height: 87.5vh;
+    max-width: auto;
+
+}
+.currently > img {
+    max-width: 350px;
+    height: auto;
+}
+
+#about-header {
+    display: flex;
+    justify-content: center;
+    color: #000000;
+    text-shadow: 1px 1px 2px white;
+    letter-spacing: 5px;
+}
+.currently > h4 {
+    font-size: 4rem;
+}
+
+.currently {
+    font-size: 1rem;
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1px;
+    font-size: 20px; 
+}
+
+.currently > a {
+    margin-top: 30px;
+}
+.currently > a:hover {
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+
+#skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#skills > h4 {
+    margin-right: 30px;
+}
+.image-size {
+    width: 200px;
+}
+
+/* styling for the about page stops here */
+
+
+/* styling for the project page starts here */
+
+#projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px white;
+}
+
+#about-body {
+    background-image: linear-gradient(white,lightblue);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 87.5vh;
+    width: 100%;
+    color: black;
+}
+
+#tables {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.table-one {
+    float: left;
+    border: 1px solid black;
+    border-radius:30%;
+    align-items: center;
+    margin-right: 5rem;
+    padding: 100px;
+    box-shadow: 1px 1px 30px;
+    border-style: none;
+    background-image: url(assets/personal-website-icon.PNG);
+    background-size: cover;
+    transition: 0.5s;
+    cursor: pointer;
+    opacity: 0.5;
+  
+}
+
+.table-one > a {
+    text-decoration: none;
+    color: black;
+}
+.table-one:hover{
+    transform: scale(1.5);
+    opacity: 1;
+}
+.table-two {
+    float: right;
+    border: 1px solid black;
+    border-radius: 30%;
+    align-items: center;
+    padding: 100px;
+    box-shadow: 1px 1px 30px;
+    border-style: none;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+
+.table-two:hover {
+    transform: scale(1.5);
+}
